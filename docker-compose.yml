@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  ef:
+    build:
+      context: .
+      dockerfile: ./app/dockerfile
+    env_file:
+      - .env
